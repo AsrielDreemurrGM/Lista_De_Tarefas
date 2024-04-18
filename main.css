@@ -33,12 +33,18 @@ input:hover {
 
 ul {
     margin-top: 30px;
-    font-size: 20;
+    font-size: 20px;
     font-weight: 600;
     color: white;
 }
 
 ul li {
     margin-top: 5px;
-    cursor: pointer
+    cursor: pointer;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
 }
