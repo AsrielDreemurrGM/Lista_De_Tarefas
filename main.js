@@ -4,8 +4,8 @@ $(document).ready(function(){
 
         const novaTarefa = $('#tarefa').val();
         const novaLinha = $('<li></li>');
-//Esta adicionando o '<li></li>' mas não adiciona o valor colocado no formulário
-        $(novaTarefa).appendTo(novaLinha);
+
+        $(`<a>${novaTarefa}</a>`).appendTo(novaLinha);
         $(novaLinha).appendTo('ul');
         $('#tarefa').val('');
     })
